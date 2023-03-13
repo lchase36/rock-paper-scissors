@@ -2,11 +2,33 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
-
+    <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors</title>
   </head>
   <body>
-
+    <div id="main-container">
+      <h1>ROCK PAPER SCISSORS</h1>
+      <h3>SELECT YOUR MOVE</h3>
+      <div id="moves-container">
+        <button value=0>Rock</button>
+        <button value=1>Paper</button>
+        <button value=2>Scissors</button>
+      </div>
+      <div id="score-container">
+        <div class="score">
+          <h3>PLAYER SCORE</h3>
+          <div id="player-score">0</div>
+        </div>
+        <div class="score">
+          <h3>COMPUTER SCORE</h3>
+          <div id="computer-score">0</div>
+        </div>
+      </div>
+      <div class="score">
+        <h3>RESULTS</h3>
+        <div id="results"></div>
+      </div>
+    </div>
   </body>
   <script src="rockpaperscissors.js"></script>
 </html>

@@ -1,0 +1,36 @@
+body {
+	display: flex;
+  justify-content: center;
+}
+
+#main-container {
+  height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#moves-container {
+	display: flex;
+	gap: 50px;
+}
+
+button {
+	height: 50px;
+	width: 100px;
+}
+
+#score-container {
+	width: 400px;
+	display: flex;
+  justify-content: space-between;
+}
+
+.score {
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
